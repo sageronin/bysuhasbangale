@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the bysuhasbangale portfolio: cinematic travel frames, motorcycle stories, and atmospheric editorial visuals."
+    />
+    <meta name="theme-color" content="#0b0b0b" />
+    <title>Work | bysuhasbangale</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="page page-portfolio preloading" data-page="portfolio">
+    <div class="cursor cursor--dot" aria-hidden="true"></div>
+    <div class="cursor cursor--ring" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="bysuhasbangale home">bysuhasbangale</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero page-hero--portfolio">
+        <div class="page-hero__media" data-parallax="0.14">
+          <img
+            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1800&q=80"
+            alt="Open road through a cinematic landscape"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="page-hero__veil"></div>
+        <div class="container page-hero__content">
+          <span class="section-label reveal">The Archive</span>
+          <h1 class="reveal delay-1">A collection built around motion, stillness, and the in-between.</h1>
+          <p class="reveal delay-2">
+            Explore travel, motorcycle, and cinematic categories through an editorial grid designed to
+            feel immersive without losing clarity.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="portfolio-toolbar reveal">
+            <div>
+              <span class="section-label">Categories</span>
+              <h2>Filter the work by mood and medium.</h2>
+            </div>
+            <div class="filter-group" id="category-filters" aria-label="Portfolio filters"></div>
+          </div>
+          <div class="portfolio-grid" id="portfolio-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-panel reveal">
+          <div>
+            <span class="section-label">Need A Story?</span>
+            <h2>Commission visuals that feel lived-in, intentional, and unmistakably cinematic.</h2>
+          </div>
+          <div class="cta-panel__actions">
+            <p>
+              Ideal for destinations, travel brands, motorcycle culture, apparel, boutique stays, and
+              editorial campaigns.
+            </p>
+            <a class="button button--primary" href="contact.html">Enquire Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox__backdrop" type="button" aria-label="Close preview"></button>
+      <div class="lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button class="lightbox__close" id="lightbox-close" type="button" aria-label="Close preview">
+          Close
+        </button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" type="button" aria-label="Previous work">
+          Prev
+        </button>
+        <figure class="lightbox__figure">
+          <img id="lightbox-image" src="" alt="" />
+          <figcaption class="lightbox__caption">
+            <p class="lightbox__eyebrow" id="lightbox-meta"></p>
+            <h2 id="lightbox-title"></h2>
+            <p id="lightbox-description"></p>
+          </figcaption>
+        </figure>
+        <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" type="button" aria-label="Next work">
+          Next
+        </button>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer__inner">
+        <p>bysuhasbangale</p>
+        <p>Cinematic travel and visual storytelling.</p>
+        <p>&copy; <span class="current-year"></span> bysuhasbangale</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

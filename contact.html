@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with bysuhasbangale for cinematic travel photography, storytelling campaigns, and creative collaborations."
+    />
+    <meta name="theme-color" content="#0b0b0b" />
+    <title>Contact | bysuhasbangale</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="page page-contact preloading" data-page="contact">
+    <div class="cursor cursor--dot" aria-hidden="true"></div>
+    <div class="cursor cursor--ring" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="bysuhasbangale home">bysuhasbangale</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero page-hero--contact page-hero--compact">
+        <div class="page-hero__media" data-parallax="0.12">
+          <img
+            src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1800&q=80"
+            alt="Ocean horizon at sunset"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="page-hero__veil"></div>
+        <div class="container page-hero__content">
+          <span class="section-label reveal">Contact</span>
+          <h1 class="reveal delay-1">If the project needs atmosphere, movement, and emotional precision, let&rsquo;s talk.</h1>
+          <p class="reveal delay-2">
+            Share your destination, campaign, creative brief, or visual moodboard and start the conversation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="contact-card reveal">
+            <span class="section-label">Send A Note</span>
+            <h2>Tell me what you want the audience to feel.</h2>
+            <form class="contact-form" id="contact-form" data-recipient="hello@bysuhasbangale.com">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="your@email.com" required />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Share the location, brief, timeline, or the mood you want to build."
+                required
+              ></textarea>
+
+              <button class="button button--primary" type="submit">Compose Email</button>
+              <p class="form-status" id="form-status" aria-live="polite">
+                The form opens your default email app with the details pre-filled.
+              </p>
+            </form>
+          </div>
+
+          <aside class="contact-aside">
+            <div class="contact-panel reveal delay-1">
+              <span class="section-label">Direct</span>
+              <h3>Preferred touchpoints</h3>
+              <ul class="contact-links">
+                <li>
+                  <a href="mailto:hello@bysuhasbangale.com">hello@bysuhasbangale.com</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/bysuhasbangale/" target="_blank" rel="noreferrer">
+                    Instagram / @bysuhasbangale
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-panel contact-panel--image reveal delay-2">
+              <img
+                src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80"
+                alt="Road through a moody forest"
+              />
+              <div class="contact-panel__overlay">
+                <span class="section-label">Available For</span>
+                <p>Travel campaigns, resorts, motorcycle culture, editorial stories, branded experiences.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__inner">
+        <p>bysuhasbangale</p>
+        <p>Cinematic travel and visual storytelling.</p>
+        <p>&copy; <span class="current-year"></span> bysuhasbangale</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
